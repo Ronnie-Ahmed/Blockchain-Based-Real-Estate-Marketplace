@@ -52,7 +52,19 @@ Install my-project with npm
   npm run start
 ```
     
-```![home](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/5ebf6666-0ccb-4a2c-b514-6619d6fa2b85)
+![home](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/5ebf6666-0ccb-4a2c-b514-6619d6fa2b85)
+![home2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/de1bae32-c420-4383-9863-755ac9adc861)
+
+![Sell](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/0ff28c87-e4f6-4f9d-8883-ddfc20957b0c)
+
+![Sell2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/2543b23b-1971-4d8d-ad7b-e5fefb0b249f)
+![sell3](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/150da559-1c17-409d-baf0-4c7bad17193a)
+![sell4](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/93121704-8c1b-4415-9feb-dc36e908f4a9)
+![buy2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/e9405954-e0ad-4a64-a2e4-890ac950a6f9)
 
 
+![buy3](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/4c526405-940d-4c8f-b1e2-2242f1fa8078)
+![Uploading details.png…]()
 
+
+![userprofile2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/5a50db1f-2bb6-4973-8577-4182e9fb90cc)
