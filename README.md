@@ -52,19 +52,7 @@ Install my-project with npm
   npm run start
 ```
     
-```
+```![home](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/5ebf6666-0ccb-4a2c-b514-6619d6fa2b85)
 
 
-## Screenshots
-![home](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/afa3b13a-9902-4e7d-b00f-a87063c7b5f5)
-![home2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/9f8e8f19-be3a-406c-858d-23fdf69d226b)
-![Sell](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/b231895b-7034-4021-a8f8-ff7fb![Sell2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/75699980-07b8-482b-a68f-dacf464e3b2e)
-249eae2)
-
-
-
-
-## Demo
-
-Insert gif or link to demo
 
