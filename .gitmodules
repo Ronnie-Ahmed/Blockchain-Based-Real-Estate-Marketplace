@@ -1,3 +1,6 @@
 [submodule "submodules/frontend"]
 	path = submodules/frontend
 	url = https://github.com/Ronnie-Ahmed/BlockEstate.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Ronnie-Ahmed/Frontend-BlockEstate.git
