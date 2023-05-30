@@ -53,8 +53,7 @@ Install my-project with npm
 ```
 ##Project Video
 
-[![BlockEstate](![Screenshot_1](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/6e09b984-72f2-45b2-bc91-b2bb3067fcc8))](
-Uploading BlockEstate.mp4…)
+[![BlockEstate](![Screenshot_1](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/6e09b984-72f2-45b2-bc91-b2bb3067fcc8))]()
 
 
 ##ScreenShoot
@@ -71,7 +70,10 @@ Uploading BlockEstate.mp4…)
 
 
  ![buy3](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/4c526405-940d-4c8f-b1e2-2242f1fa8078)
- ![Uploading details.png…]()
+ 
+ ![details](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/30909475-1c4f-48a6-a370-8cee9e7fac8d)
+
+![details2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/771c05fd-f6c8-45d6-8bcd-fc19ecc694ea)
 
 
  ![userprofile2](https://github.com/Ronnie-Ahmed/Blockchain-Based-Real-Estate-Marketplace/assets/68500792/5a50db1f-2bb6-4973-8577-4182e9fb90cc)
