@@ -169,29 +169,34 @@ contract BlockEstate is ERC721URIStorage {
         return items;
     }
 
-    function executeSale(uint256 tokenId) public payable {
-        uint price = idToListedToken[tokenId].price;
-        address seller = idToListedToken[tokenId].seller;
-        require(
-            msg.value == price,
-            "Please submit the asking price in order to complete the purchase"
-        );
-
-        //update the details of the token
-        idToListedToken[tokenId].currentlyListed = true;
-        idToListedToken[tokenId].seller = payable(msg.sender);
-        _itemsSold.increment();
-
-        //Actually transfer the token to the new owner
-        _transfer(address(this), msg.sender, tokenId);
-        //approve the marketplace to sell NFTs on your behalf
-        approve(address(this), tokenId);
-
-        //Transfer the listing fee to the marketplace creator
-        payable(owner).transfer(listPrice);
-        //Transfer the proceeds from the sale to the seller of the NFT
-        payable(seller).transfer(msg.value);
-    }
+ function executeSale(uint256 tokenId) public payable {  
+    ListedToken storage token = idToListedToken[tokenId];  
+    uint price = token.price;  
+    address seller = token.seller;  
+  
+    // Checks  
+    require(  
+        msg.value == price,  
+        "Please submit the asking price in order to complete the purchase"  
+    );  
+    require(token.currentlyListed, "Token not listed");  
+  
+    // Effects: update state before external calls  
+    token.currentlyListed = false; // Fix: mark as sold  
+    token.seller = payable(msg.sender);  
+    token.owner = payable(msg.sender);  
+    _itemsSold.increment();  
+  
+    // Interactions: transfer token and ETH last  
+    _transfer(address(this), msg.sender, tokenId);  
+    approve(address(this), tokenId);  
+  
+    (bool sentOwner, ) = payable(owner).call{value: listPrice}("");  
+    require(sentOwner, "Failed to send listing fee to owner");  
+  
+    (bool sentSeller, ) = payable(seller).call{value: msg.value}("");  
+    require(sentSeller, "Failed to send payment to seller");  
+}
 
     //We might add a resell token function in the future
     //In that case, tokens won't be listed by default but users can send a request to actually list a token
